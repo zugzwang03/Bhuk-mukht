@@ -1,1 +1,70 @@
-<p>services works!</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <style>
+        /* Basic styling for the card */
+        .menu-card {
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .dish-item {
+            margin: 10px;
+            flex: 1 0 200px;
+            text-align: center;
+            border: 1px solid #eee;
+            padding: 10px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        .dish-item img {
+            width: 100px;
+            height: 75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu-card">
+        <h1>Dishes</h1>
+        <div class="dish-item">
+            <input type="checkbox" id="dish1" name="dish[]" value="dish1">
+            <img src="assets/images/dish1.jpg" alt="Dish 1">
+            <h3>Fish Curry</h3>
+            <p>Fish curry made with fresh fish, onions, tomatoes, coconut, spices and herbs. Make the easiest, delicious and flavorsome fish curry with my easy step by step recipe. Also known as Indian fish masala it is a sea food lovers’ favorite. Fish curry is a staple in a lot of Asian countries and is made in various ways using many different locally available ingredients like coconut, poppy seeds, tamarind etc. This post shows you make it with the most basic ingredients – the panty staples.</p>
+        </div>
+        <div class="dish-item">
+            <input type="checkbox" id="dish2" name="dish[]" value="dish2">
+            <img src="assets/images/dish2.jpeg" alt="Dish 2">
+            <h3>Banana Pancakes</h3>
+            <p>Wake up on the right side of the bed with a stack of sweet, cozy, and simple banana pancakes. This top-rated banana pancake recipe is easy to make and it comes together in just 15 minutes, so you don't have to wake up early to enjoy a satisfying breakfast. Learn how to make, store, and serve the best banana pancakes ever.</p>
+        </div>
+        <div class="dish-item">
+            <input type="checkbox" id="dish3" name="dish[]" value="dish3">
+            <img src="assets/images/dish3.jpg" alt="Dish 3">
+            <h3>Vegetable Pizza</h3>
+            <p>Gluten-free and low-carb breakfast pizza.</p>
+        </div>
+        <div class="dish-item">
+            <input type="checkbox" id="dish4" name="dish[]" value="dish4">
+            <img src="assets/images/dish4.jpg" alt="Dish 4">
+            <h3>Crispy Chicken</h3>
+            <p>I experimented with lots of recipes over the years to find the best crispy fried chicken. This is it! It's bits and pieces of hints I have heard over the years. It's more a matter of preparation and cooking method! Paprika adds smoky flavor and has a low smoke point, which helps with browning the chicken.</p>
+        </div>
+        <div class="dish-item">
+            <input type="checkbox" id="dish5" name="dish[]" value="dish5">
+            <img src="assets/images/dish5.jpg" alt="Dish 5">
+            <h3>Fried Chicken</h3>
+            <p>A wonderful recipe for deep-fried chicken with a Southern taste all its own. The hint of tangy buttermilk under a crispy coating of deliciousness makes this chicken stand out. Seasoning blend can be altered to your taste; some may find it too salty.</p>
+        </div>
+    </div>
+</body>
+</html>

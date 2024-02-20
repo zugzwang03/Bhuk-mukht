@@ -1,0 +1,107 @@
+/* Basic styles and formatting */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .cta {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .cta a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  
+  .donate {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .learn-more {
+    background-color: #333;
+    color: white;
+  }
+  
+  main {
+    padding: 30px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    line-height: 1.5;
+  }
+  
+  .how-we-help ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .how-we-help li {
+    margin-bottom: 10px;
+  }
+  
+  .stories {
+    background-color: #f8f8f8;
+    padding: 20px;
+  }
+  
+  .get-involved {
+    padding: 30px;
+  }
+  
+  .get-involved h4 {
+    margin-bottom: 15px;
+  }
+  
+  .get-involved ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .get-involved li {
+    margin-bottom: 10px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Add more specific styles based on your design preferences */
+  
+  /* For example, you can define colors, fonts, layout, typography, etc. */
+  
